@@ -11,4 +11,4 @@ The file is well documented, so it should not be hard to understand.
 * A *Forest* is the natural environment where the living creatures, called *Blobs*, live. The simulation is divided into days, and each day has a _daylight_ and _nighttime_ period. During _daylight_ the Blobs goes searching for food, while during _nighttime_ they go to sleep and wait for the next day to begin.
 
 * The *Blob* is the living creature populating the *Forest*. Each Blob goes searching for food during daylight, and rest during nighttime.
-The Blob has to eat a minimum amount of food each day to survive, otherwise it dies. 
+The Blob has to eat a minimum amount of food each day to survive, otherwise it dies. The process of finding food takes a random time, and after the Blob found and ate the food, it rests for a while before going hunting again.
