@@ -1,4 +1,4 @@
-# Simulation of a Biological system using Simpy
+# Simulation of a Biological system using SimPy
 
 This Python project uses SimPy, a discrete time simulation framework, to simulate the evolution of a population of living creatures in an environment with limited food supply.  
 The main idea behind the simulation is from Primer's youtube video on [Natural Selection](https://www.youtube.com/watch?v=0ZGbIKd0XrM), but simpler and without any video rendering.
@@ -7,7 +7,7 @@ SimPy may not be the best tool for implementing this kind of biological simulati
 
 The file is well documented, so it should not be hard to understand.
 
-### Useful information in the simulations
+### Useful information for the simulation
 * A *Forest* is the natural environment where the living creatures, called *Blobs*, live. The simulation is divided into days, and each day has a _daylight_ and _nighttime_ period. During _daylight_ the Blobs goes searching for food, while during _nighttime_ they go to sleep and wait for the next day to begin.
 
 * The *Blob* is the living creature populating the *Forest*. Each Blob goes searching for food during daylight, and rest during nighttime.
