@@ -9,7 +9,9 @@ All the three python files (*bio_sim.py*, *averages.py* and *equilibrium.py*) ca
 
 The fils are well documented, so it should not be hard to understand.
 
-### bio_sim.py: useful information for the simulation
+### bio_sim.py
+#### Useful information for the simulation  
+
 * A *Forest* is the natural environment where the living creatures, called *Blobs*, live. The simulation is divided into days, and each day has a _daylight_ and _nighttime_ period. During _daylight_ the Blobs goes searching for food, while during _nighttime_ they go to sleep and wait for the next day to begin.
 
 * The *Blob* is the living creature populating the *Forest*. Each Blob goes searching for food during daylight, and rest during nighttime.
