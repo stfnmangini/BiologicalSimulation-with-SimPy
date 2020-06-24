@@ -21,7 +21,7 @@ The Blob has to eat a minimum amount of food each day to survive, otherwise it d
 This file executes the simulaton in *bio_sim.py* multiple times in order to achieve a sufficient statistics to plot relevant information and results of the simulation.
 
 ### equilibrium.py
-This file extrapolates relevant information when an equilibrium between available food and blobs is reached and fits the data.
+This file extrapolates relevant information when an equilibrium is reached between available food and surviving blobs, and eventually fits the data.
 
 ### Presentation folder
 The folder contains a presentation explaining the code, its motivations, difficulties encountered and final thoughts.
