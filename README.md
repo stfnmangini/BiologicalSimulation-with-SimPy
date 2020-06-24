@@ -15,3 +15,22 @@ The Blob has to eat a minimum amount of food each day to survive, otherwise it d
 
 ### *main.py*  
 This file executes the simulaton in *bio_sim.py* multiple times in order to achieve a sufficient statistics to plot relevant information and results of the simulation.
+
+
+### *main_stat.py*
+This file extrapolates relevant information when an equilibrium between available food and blobs is reached and fits the data.
+
+### Required packages (installation with Conda)
+- Simpy: [Simulation Package in Python](https://simpy.readthedocs.io/en/latest/)
+```
+conda install -c mutirri simpy
+```
+- Tqdm: Useful [Prograss Bar](https://tqdm.github.io/) for Python
+```
+conda install -c conda-forge tqdm
+```
+- Scipy: for linear fitting of data
+```
+conda conda install -c anaconda scipy
+```
+- Numpy and Matplotlib

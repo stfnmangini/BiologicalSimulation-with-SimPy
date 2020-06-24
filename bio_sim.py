@@ -135,7 +135,7 @@ class Blob:
                 yield env.timeout(NIGHTTIME) # Wait for the night to pass
                 if self.can_reproduce:
                     print("Newborn blob")
-                    Blob_list.append(Blob(env, forest, 'Newborn Blob'))
+                    Blob_list.append(Blob(env, forest, f'Newborn Blob {int(env.now/DAY)}'))
                     self.can_reproduce = False
 
 
@@ -154,7 +154,7 @@ def check_alive(env, Blob_list):
         yield env.timeout(NIGHTTIME)
 
 
-def main(start_blob = 50, start_food = 1000, food_rate = 100, num_days = 5):
+def main(start_blob = 50, start_food = 1000, food_rate = 100, num_days = 50):
 
     global FOOD_RATE_PRODUCTION
     global NUM_BLOB
