@@ -20,6 +20,9 @@ This file executes the simulaton in *bio_sim.py* multiple times in order to achi
 ### *main_stat.py*
 This file extrapolates relevant information when an equilibrium between available food and blobs is reached and fits the data.
 
+### *Presentation*
+The folder contains a presentation, further explaining the code, its motivations, difficulties encountered and final thoughts.
+
 ### Required packages (installation with Conda)
 - Simpy: [Simulation Package in Python](https://simpy.readthedocs.io/en/latest/)
 ```
