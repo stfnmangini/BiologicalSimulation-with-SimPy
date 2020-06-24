@@ -120,7 +120,7 @@ class Blob:
         while self.alive: # Execute only if the Blob is still alive
             try:
                 self.isHunting = True # Blob goes searching for food
-                print(f'{self.name} starts hunting at time {env.now}')
+                # print(f'{self.name} starts hunting at time {env.now}')
                 yield env.timeout(time_to_food()) # Some time is spent searching some food
                 if forest.food.level > 0:
                     yield forest.food.get(1) # A food item is gathered from the Forest
@@ -134,7 +134,7 @@ class Blob:
                 self.isHunting = False
                 yield env.timeout(NIGHTTIME) # Wait for the night to pass
                 if self.can_reproduce:
-                    print("Newborn blob")
+                    # print("Newborn blob")
                     Blob_list.append(Blob(env, forest, f'Newborn Blob {int(env.now/DAY)}'))
                     self.can_reproduce = False
 
