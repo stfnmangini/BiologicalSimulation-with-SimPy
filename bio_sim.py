@@ -104,7 +104,7 @@ class Blob:
                 self.isHunting = False
                 if self.food_eaten < self.food_requirements: # If the Blob hasn't eaten enough, it dies.
                     self.alive = False
-                if self.food_eaten > 3: # If the Blob ate more than 3 foods, then it reproduces creating a new Blob
+                if self.food_eaten > 3: # If the Blob ate more than 2 foods, then it reproduces creating a new Blob
                     self.can_reproduce = True
                     # print("Newborn blob")
                     # Blob_list.append(Blob(env, forest, 'Newborn Blob'))

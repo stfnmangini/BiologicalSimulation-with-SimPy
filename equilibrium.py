@@ -40,7 +40,7 @@ print("Main_Stat.py - Biological simulation with SimPy.")
 
 results = []
 foods = []
-food_rates_list = [10*i for i in range(1,20)]
+food_rates_list = [10*i for i in range(1,20,4)]
 # In this way the print statements in bs.main() are suppressed
 with HiddenPrints():
     for foodrate in tqdm(food_rates_list):
